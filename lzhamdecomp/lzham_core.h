@@ -1,6 +1,7 @@
 // File: lzham_core.h
 // LZHAM is in the Public Domain. Please see the Public Domain declaration at the end of include/lzham.h
 #pragma once
+#include <cstdint>
 
 #if defined(_MSC_VER)
    #pragma warning (disable: 4127) // conditional expression is constant

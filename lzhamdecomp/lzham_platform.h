@@ -10,7 +10,7 @@ void lzham_output_debug_string(const char* p);
 void lzham_assert(const char* pExp, const char* pFile, unsigned line);
 void lzham_fail(const char* pExp, const char* pFile, unsigned line);
 
-#ifdef WIN32
+#ifdef _WIN32
    #define LZHAM_BREAKPOINT DebuggerBreak();
    #define LZHAM_BUILTIN_EXPECT(c, v) c
 #elif defined(__GNUC__)
